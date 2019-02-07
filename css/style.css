@@ -95,6 +95,7 @@ body.background {
 .background p {
   line-height: 1.3;
   font-family: 'Open Sans', sans-serif;
+  overflow: scroll;
 }
 
 .background h2{
