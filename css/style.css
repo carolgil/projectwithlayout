@@ -34,6 +34,8 @@ nav {
 /* table bordering style */
 table {
   border-collapse: collapse;
+  position: relative;
+  margin: 0 auto;
 }
 th,
 td {
@@ -44,6 +46,11 @@ th {
   font-weight: bold;
 }
 
+h1 {
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
 
 .container {
   display: grid;
