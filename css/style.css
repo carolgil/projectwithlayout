@@ -16,6 +16,7 @@ nav {
   margin-bottom: 50px;
 }
 
+
 .current {
   color: rgb(0,0,0);
   text-decoration: underline;
@@ -82,19 +83,25 @@ footer {
   padding: 10px;
 }
 
-body.background {
+.background header {
   background-image: url("../images/teampic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  margin-top: -50px;
+  height: 490px;
 }
+
+.background nav {
+  padding-top: 50px;
+}
+
 
 .background h1 {
   height: 100px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 175px;
+  margin-top: 75px;
   font-family: 'Playfair Display', serif;
   font-size: 30px;
 }
@@ -118,11 +125,11 @@ body.background {
   color: white;
 }
 
-.indexnav a {
+.background h1 {
   color: white;
 }
 
-body.background {
+.indexnav a {
   color: white;
 }
 
@@ -132,6 +139,12 @@ body.background {
 
 .background .fas {
   color: white;
+}
+
+.background footer {
+  overflow: auto;
+  background: rgb(57, 55, 61);
+  padding: 25px;
 }
 
 .navimg {
