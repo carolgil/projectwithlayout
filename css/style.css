@@ -1,0 +1,140 @@
+nav a {
+  color: rgba(0,0,0,.54);
+  font-size: 18px;
+  padding: 0.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Abril Fatface', cursive;
+}
+
+nav li {
+  display: inline;
+}
+
+nav {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.current {
+  color: rgb(0,0,0);
+  text-decoration: underline;
+}
+
+.skip {
+  position: relative;
+  left: -2000px;
+}
+
+.skip:focus {
+  position: static;
+  border: 2px solid black;
+}
+
+/* table bordering style */
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 3px solid #c6c7cc;
+  padding: 10px 15px;
+}
+th {
+  font-weight: bold;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 40px;
+  align-items: center;
+}
+
+.contact_container {
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.fab {
+  display: inline;
+  font-size: 32px;
+  color: black;
+}
+
+.fas {
+  display: inline;
+  font-size: 32px;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+body.background {
+  background-image: url("../images/teampic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.background h1 {
+  height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 175px;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+.background p {
+  line-height: 1.3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.background h2{
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  padding: 10px;
+
+}
+
+.background a {
+  color: white;
+}
+
+.indexnav a {
+  color: white;
+}
+
+body.background {
+  color: white;
+}
+
+.background .fab {
+  color: white;
+}
+
+.background .fas {
+  color: white;
+}
+
+.navimg {
+  height: 70px;
+  width: 70px;
+  margin-top: -30px;
+  margin-bottom: -20px;
+  margin-right: -10px;
+
+}
+
+#main {
+  font-family: Helvetica;
+}
