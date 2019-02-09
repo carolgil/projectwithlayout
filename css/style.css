@@ -81,6 +81,7 @@ h1 {
   grid-template-columns: 1fr;
   column-gap: 40px;
   justify-content: center;
+  grid-row-gap: 40px;
 }
 
 .fab {
@@ -183,4 +184,8 @@ footer {
 body {
   font-family: Helvetica;
   font-size: 25px;
+}
+
+h2 {
+  padding: 20px;
 }
